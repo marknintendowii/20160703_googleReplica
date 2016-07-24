@@ -162,3 +162,33 @@ a.button:hover {
 	letter-spacing: 0.1px;
 	font-size: 14px;
 }
+
+/* =============MEDIA QUERIES MOFO!============= */
+
+@media (max-width: 800px){
+	.searchBox input {
+		width: 80%;
+	}
+}
+
+@media (max-width: 425px){
+	.shareButton {
+		display: none;
+	}
+	.topNav .Mark  {
+		display: none;
+	}
+	.topNav .fa-bell-o {
+		display: none;
+	}
+}
+
+@media (max-width: 525px){
+	.left {
+		float: none;
+		text-align: center;
+	}
+	.right {
+		float: none;
+		text-align: center;
+	}
